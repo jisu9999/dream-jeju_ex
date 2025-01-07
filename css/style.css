@@ -4,3 +4,133 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  height: 900px;
+  background-color: bisque;
+  margin: auto;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(59, 114, 255);
+}
+.header a {
+  display: block;
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  padding: 20px 30px;
+  float: left;
+}
+.header ul {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+.header ul li {
+  margin-right: 70px;
+  float: left;
+  color: #fff;
+}
+main {
+  width: 100%;
+  height: 300px;
+  background: url("../images/felix-rottmann-i-PzZ70K6h4-unsplash.jpg") no-repeat center;
+  background-color: slategray;
+}
+article {
+  width: 100%;
+  height: 400px;
+  background-color: #ebebeb;
+}
+.contents h4 {
+  /* width: 300px;
+    height: 400px;
+    background-color: #999; */
+  float: left;
+}
+.notice {
+  width: 50px;
+  height: 50px;
+  background-color: #ebebeb;
+}
+.img_block {
+  /* display: block; */
+  padding-left: 700px;
+}
+.img1 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: #666;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+}
+.img2 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: #666;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+}
+.img3 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: #666;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: thistle;
+}
+.footer_left_top ul li {
+  float: left;
+  padding: 0 20px;
+  margin-top: 20px;
+  border-right: 1px solid #777;
+  font-size: 12px;
+}
+.footer_left_top ul li:last-child {
+  border: none;
+}
+.footer_left_bottom p {
+  color: #999;
+  font-size: 12px;
+}
+/* .footer ul {
+  padding: 25px 10px;
+}
+.footer ul li {
+  float: left;
+  padding: 0 20px;
+  color: #666;
+  border-right: 1px solid #777;
+  font-size: 12px;
+}
+.footer ul li:last-child {
+  border-right: none;
+}
+.footer p {
+  color: #999;
+  font-size: 12px;
+  margin-left: 28px;
+  margin-top: 10px;
+} */
+.footer_right {
+  float: right;
+}
