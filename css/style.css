@@ -10,11 +10,12 @@ ol {
 }
 a {
   text-decoration: none;
+  color: #222;
 }
 .container {
   width: 1200px;
   height: 900px;
-  background-color: bisque;
+  /* background-color: bisque; */
   margin: auto;
 }
 .header {
@@ -44,93 +45,132 @@ a {
 main {
   width: 100%;
   height: 300px;
-  background: url("../images/felix-rottmann-i-PzZ70K6h4-unsplash.jpg") no-repeat center;
+  background: url("../images/images/photo-2.jpg") no-repeat center;
   background-color: slategray;
 }
 article {
   width: 100%;
   height: 400px;
-  background-color: #ebebeb;
+  /* background-color: #ffacac; */
 }
-.contents h4 {
-  /* width: 300px;
-    height: 400px;
-    background-color: #999; */
+.contents {
+  padding-top: 10px;
   float: left;
+  width: 50%;
+  height: 400px;
+  /* background-color: #fb7676; */
 }
-.notice {
-  width: 50px;
-  height: 50px;
-  background-color: #ebebeb;
+.contents_top {
+  width: 100%;
+  height: 41px;
+}
+.contents_top .notice {
+  float: left;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  color: #c21616;
+  background-color: #cbcbcb;
+}
+.contents_top .gallery {
+  float: right;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  color: #c21616;
+
+  margin-right: 360px;
+  background-color: #bb6d6d;
+}
+
+.contents_bottom {
+  border-top: 1px solid #999;
+  padding: 30px 0;
+}
+.contents_bottom p {
+  padding: 10px 0;
+  background-color: #fff;
+}
+.contents_bottom p:nth-child(even) {
+  background-color: #d1cece;
 }
 .img_block {
-  /* display: block; */
-  padding-left: 700px;
+  float: right;
+  width: 50%;
+  height: 400px;
+  /* background-color: #300d0d; */
 }
-.img1 a {
-  display: block;
-  width: 150px;
-  height: 150px;
-  background-color: #666;
-  border-radius: 50%;
-  overflow: hidden;
+.img_block li {
   float: left;
+  margin-left: 20px;
+  margin-top: 90px;
 }
-.img2 a {
+.img_block li:first-child {
+  margin-left: 60px;
+}
+.img_block li span {
+  text-align: center;
   display: block;
+}
+.img_block img {
   width: 150px;
   height: 150px;
-  background-color: #666;
   border-radius: 50%;
-  overflow: hidden;
-  float: left;
 }
-.img3 a {
+/* .img_block a {
+  color: #222;
   display: block;
-  width: 150px;
-  height: 150px;
-  background-color: #666;
-  border-radius: 50%;
-  overflow: hidden;
+  margin-top: 10px;
 }
+.img_block .peace {
+  margin-left: 40px;
+}
+.img_block .healing {
+  margin-left: 30px;
+}
+.img_block .cs {
+  margin-left: 42px;
+} */
 .footer {
+  position: relative;
   width: 100%;
   height: 100px;
+  padding: 0 10px;
   background-color: thistle;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  justify-content: space-between;
+  padding: 20px;
 }
 .footer_left_top ul li {
   float: left;
   padding: 0 20px;
-  margin-top: 20px;
-  border-right: 1px solid #777;
+  color: #222;
+  border-right: 1px solid #777777;
   font-size: 12px;
+}
+.footer_left_top ul li:first-child {
+  padding: 0 20px 0 0;
 }
 .footer_left_top ul li:last-child {
   border: none;
 }
 .footer_left_bottom p {
-  color: #999;
+  /* position: absolute;
+  bottom: 20px;
+  left: 18px; */
+  color: #333;
   font-size: 12px;
 }
-/* .footer ul {
-  padding: 25px 10px;
-}
-.footer ul li {
-  float: left;
-  padding: 0 20px;
-  color: #666;
-  border-right: 1px solid #777;
-  font-size: 12px;
-}
-.footer ul li:last-child {
-  border-right: none;
-}
-.footer p {
-  color: #999;
-  font-size: 12px;
-  margin-left: 28px;
-  margin-top: 10px;
-} */
 .footer_right {
-  float: right;
+  margin-top: 30px;
+  /* position: absolute;
+  bottom: 30px;
+  right: 10px; */
 }
